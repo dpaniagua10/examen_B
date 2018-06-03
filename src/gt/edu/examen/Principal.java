@@ -3,6 +3,7 @@ package gt.edu.examen;
 import java.io.*;
 import java.util.Scanner;
 
+//Daniel Paniagua 7690-17-6640 seccion B programacion I
 public class Principal {
 
 	static final String ruta = "Clientes_Pendientes.txt";
