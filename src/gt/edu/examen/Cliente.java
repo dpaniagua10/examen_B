@@ -1,24 +1,30 @@
 package gt.edu.examen;
 
 public class Cliente {
-	
-	private String nombre;
-	private String dpi;
-	
+
+
+    private String Nombre;
+    private String Dpi;
+
 	public String getNombre() {
-		return nombre;
-	}
-	public void setNombre(String nombre) {
-		this.nombre = nombre;
-	}
+        return Nombre;
+    }    
+
+    public void setNombre(String nombre) {
+        Nombre = nombre;
+    }
+
 	public String getDpi() {
-		return dpi;
-	}
-	public void setDpi(String dpi) {
-		this.dpi = dpi;
+		return Dpi;
 	}
 
-	public String toString() {
-		return "Cliente: "+nombre+"\nDPI: "+dpi+"\n";
+	public void setDpi(String dpi) {
+		Dpi = dpi;
 	}
+	
+	public String toString() {
+		return "Cliente: "+Nombre+" DPI: "+Dpi;
+	}
+
+      
 }
